@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #0e0c13;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrapper {
+  background: linear-gradient(
+    to right,
+    #0f02e9,
+    #04030700,
+    #130f53 50%,
+    white 50%,
+    white 100%
+  );
+  /* background: linear-gradient(
+    to right,
+    #130f53,
+    #130f53,
+    #130f53 50%,
+    white 50%,
+    white 100%
+  ); */
+  box-sizing: border-box;
+  height: 75vh;
+  max-width: 100%;
+  width: 800px;
+  margin: 4rem auto;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border: 10px solid blue;
+  border-right: 30px solid blue;
+  border-radius: 20px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0;
+  height: 35px;
+  align-items: center;
+}
+.main-nav {
+  display: flex;
+  list-style-type: none;
+  font-size: 9px;
+  padding-right: 30px;
+}
+
+ul a {
+  text-decoration: none;
+  color: #616377;
+  padding: 8px;
+}
+ul a:hover {
+  color: dodgerblue;
+}
+
+.logo {
+  margin-left: 30px;
+  color: #fff;
+}
+.img {
+  width: 10px;
+}
+
+.img-guide {
+  background: rgb(245, 0, 122);
+  padding: 3px 4px;
+}
+
+.navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+}
+.btn {
+  color: #fff;
+  background: rgb(245, 0, 122);
+  padding: 5px;
+  border-radius: 2px;
+  transition: all 0.3s ease 0s;
+}
+.btn:hover {
+  color: #fff;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+  background: #0b7dda;
+}
+.contents {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+  font-size: 20px;
+  position: relative;
+}
+.bg-img {
+  width: 411px;
+}
+.flex {
+  flex: 1;
+  padding-top: 3rem;
+}
+
+.flex2 {
+  flex: 1;
+}
+.img-container {
+  margin-right: 2rem;
+  position: relative;
+}
+.lead {
+  font-size: 9px;
+  font-weight: 300;
+  padding: 20px 0;
+}
+.flex-p {
+  color: dodgerblue;
+  margin-bottom: 0px;
+  font-size: 12px;
+}
+.flex-h2 {
+  margin-top: 0rem;
+}
+form.example input[type="text"] {
+  padding: 9px 6px;
+  font-size: 13px;
+  background: #fff;
+  border: none;
+}
+
+form.example button {
+  border-radius: 5px;
+  padding: 9px 9px;
+  background: rgb(245, 0, 122);
+  color: white;
+  font-size: 13px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+.form-div {
+  background: #fff;
+  border-radius: 5px;
+  padding: 5px 4px;
+}
